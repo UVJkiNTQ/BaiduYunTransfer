@@ -15,6 +15,7 @@
 | share_link | 分享链接                    |
 | password   | 分享链接的提取码，长度为4位 |
 | dir        | 转存路径，根路径为/         |
+| new_name_list | 可用于批量更改转存文件（夹）的名称，具体注意事项请查阅脚本中的注释。 |
 
 `api_key`和`secret_key`可以直接使用我程序里写好的，但是出于安全和QPS的考量，我推荐你自己再去申请一个，可以参考<https://pan.baidu.com/union/document/entrance#%E7%AE%80%E4%BB%8B>。
 
