@@ -15,7 +15,7 @@ COPY . .
 EXPOSE 5000
 
 # 设置环境变量
-ENV FLASK_APP=bd.py
+ENV FLASK_APP=bdwebui.py
 ENV FLASK_ENV=production
 ENV FLASK_SECRET_KEY=${FLASK_SECRET_KEY:-default-secret-key}
 
